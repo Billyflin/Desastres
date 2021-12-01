@@ -17,4 +17,4 @@ se hizo lo que se pudu
 si no entiende algo hablenos
 por slack o discord
 Dankus#0344
-Billyflyn#3679
+Billyflin#3679
