@@ -12,3 +12,9 @@ para abordar los casos 4,5,7 se necesita almenos la clase
 
 
 se hizo lo que se pudu
+
+
+si no entiende algo hablenos
+por slack o discord
+Dankus#0344
+Billyflyn#3679
