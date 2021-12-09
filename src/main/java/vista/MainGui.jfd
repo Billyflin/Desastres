@@ -6,6 +6,7 @@ new FormModel {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
 			name: "this"
 			"title": "Desastres"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/sakura.png" )
 			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
 				name: "dialogPane"
 				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
@@ -17,13 +18,13 @@ new FormModel {
 					} ) {
 						name: "panel1"
 						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-							"$horizontalGroup": "par l {comp panel6::l:::x, seq l {space :p:79:p, par l {comp label3::l:p:48:p, comp label12::l:p:48:p, comp label13::l:p:81:p, comp label18::l:p::p, comp label19::l:p::p}, space :p:54:p, par l:::p {comp label20::l::101:x, comp label21::l::101:x, comp label22::l::101:x, comp label23::l::101:x, comp label24::l::101:x}, space ::307:x}}"
+							"$horizontalGroup": "par l {comp panel6::l:::x, seq l {space :p:79:p, par l {comp label3::l:p:48:p, comp label12::l:p:48:p, comp label13::l:p:81:p, comp label18::l:p::p, comp label19::l:p::p}, space :p:54:p, par l:::p {comp label20::l::101:x, comp label21::l::101:x, comp label22::l::101:x, comp label23::l::101:x, comp label24::l::101:x}, space :::x}}"
 							"$verticalGroup": "par l {seq l {space :::p, par b {comp label3::b:p::p, comp label20::b:p::p}, space :::p, par b {comp label12::b:p::p, comp label21::b:p::p}, space :::p, par b {comp label13::b:p::p, comp label22::b:p::p}, space :::p, par b {comp label18::b:p::p, comp label23::b:p::p}, space :::p, par b {comp label19::b:p::p, comp label24::b:p::p}, space :p:81:p, comp panel6:::::x}}"
 						} ) {
 							name: "panel5"
 							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
 								"$horizontalGroup": "par l {seq t {space :0:314:x, comp button5:::p:113:p, space :p:41:p, comp button7:::p:74:p, space :p:91:p}}"
-								"$verticalGroup": "par l {seq l {par b {comp button5::b:p::p, comp button7::b:p::p}, space :0:68:x}}"
+								"$verticalGroup": "par l {seq l {par b {comp button5::b:p::p, comp button7::b:p::p}, space ::46:x}}"
 							} ) {
 								name: "panel6"
 								add( new FormComponent( "javax.swing.JButton" ) {

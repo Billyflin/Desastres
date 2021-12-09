@@ -252,19 +252,20 @@ Disaster Subtype(Ash fall, Lahar, Pyroclastic flow, Lava flow)
 
         //======== this ========
         setTitle("Desastres");
+        setIconImage(new ImageIcon(getClass().getResource("/sakura.png")).getImage());
         var contentPane = getContentPane();
         contentPane.setLayout(new BorderLayout());
 
         //======== dialogPane ========
         {
             dialogPane.setBorder(new EmptyBorder(12, 12, 12, 12));
-            dialogPane.setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax
-            .swing.border.EmptyBorder(0,0,0,0), "JFor\u006dDesi\u0067ner \u0045valu\u0061tion",javax.swing
-            .border.TitledBorder.CENTER,javax.swing.border.TitledBorder.BOTTOM,new java.awt.
-            Font("Dia\u006cog",java.awt.Font.BOLD,12),java.awt.Color.red
-            ),dialogPane. getBorder()));dialogPane. addPropertyChangeListener(new java.beans.PropertyChangeListener(){@Override
-            public void propertyChange(java.beans.PropertyChangeEvent e){if("bord\u0065r".equals(e.getPropertyName(
-            )))throw new RuntimeException();}});
+            dialogPane.setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax
+            . swing. border. EmptyBorder( 0, 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax. swing
+            . border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM, new java .awt .
+            Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt. Color. red
+            ) ,dialogPane. getBorder( )) ); dialogPane. addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override
+            public void propertyChange (java .beans .PropertyChangeEvent e) {if ("bord\u0065r" .equals (e .getPropertyName (
+            ) )) throw new RuntimeException( ); }} );
             dialogPane.setLayout(new BorderLayout());
 
             //======== tabbedPane3 ========
@@ -302,7 +303,7 @@ Disaster Subtype(Ash fall, Lahar, Pyroclastic flow, Lava flow)
                                         .addGroup(panel6Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
                                             .addComponent(button5)
                                             .addComponent(button7))
-                                        .addGap(0, 68, Short.MAX_VALUE))
+                                        .addContainerGap(46, Short.MAX_VALUE))
                             );
                         }
 
@@ -356,7 +357,7 @@ Disaster Subtype(Ash fall, Lahar, Pyroclastic flow, Lava flow)
                                         .addComponent(label22, GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE)
                                         .addComponent(label23, GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE)
                                         .addComponent(label24, GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE))
-                                    .addContainerGap(307, Short.MAX_VALUE))
+                                    .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         );
                         panel5Layout.setVerticalGroup(
                             panel5Layout.createParallelGroup()
